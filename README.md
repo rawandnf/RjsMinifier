@@ -2,7 +2,7 @@
 _Copyright (c) 2014 Rawand Fatih_, 
 _Licensed under MIT License (MIT)_
 
-Shell script to merge and minify css file/files.
+Shell script to merge and minify JavaScript file/files.
 You can minify a single file, or merge and minify multiple files.
 
 For minifing the JS, this script uses a minifier from [javascript-minifier.com](http://javascript-minifier.com/)
@@ -27,7 +27,7 @@ Usage
     - [ -f ] The list of files. It SHOULD be wrapped in double quotes [ " ].
     - [ -r ] To remove the merged (but not minified) filed.
   - Examples:
-```csharp
+```shell
     // This outputs 'king.js' and 'king.min.js'
     sh RjsMinifier.sh -n king -f "test.js test2.js"
 
