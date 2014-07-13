@@ -27,7 +27,7 @@ Usage
     - [ -f ] The list of files. It SHOULD be wrapped in double quotes [ " ].
     - [ -r ] To remove the merged (but not minified) filed.
   - Examples:
-```shell
+```csharp
     // This outputs 'king.js' and 'king.min.js'
     sh RjsMinifier.sh -n king -f "test.js test2.js"
 
